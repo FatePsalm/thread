@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TestThread:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TestThread</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TestThread-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TestThread:war exploded" />
+    </root>
+  </artifact>
+</component>
